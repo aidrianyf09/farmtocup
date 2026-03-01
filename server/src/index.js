@@ -17,6 +17,7 @@ app.use('/api/farms', require('./routes/farms'));
 app.use('/api/team', require('./routes/team'));
 app.use('/api/cms', require('./routes/cms'));
 app.use('/api/contact', require('./routes/contact'));
+app.use('/api/seed', require('./routes/seed'));
 
 app.get('/api/health', (req, res) => res.json({ status: 'OK', message: 'Farm to Cup API running' }));
 
