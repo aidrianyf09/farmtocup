@@ -79,9 +79,17 @@ export function Footer() {
           <p className="font-body text-xs text-[#FAF7F2]/40">
             © {new Date().getFullYear()} Farm to Cup Philippines. All rights reserved.
           </p>
-          <p className="font-body text-xs text-[#FAF7F2]/40">
-            Farm. Roast. Brew.
-          </p>
+          <div className="flex items-center gap-4">
+            <p className="font-body text-xs text-[#FAF7F2]/40">
+              Farm. Roast. Brew.
+            </p>
+            <Link
+              to="/admin"
+              className="font-body text-xs text-[#FAF7F2]/20 hover:text-[#8B5E3C] transition-colors"
+            >
+              Admin
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
