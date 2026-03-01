@@ -240,7 +240,7 @@ export default function Home() {
       </section>
 
       {/* CTA Banner */}
-      <section className="bg-[#4A7C59] py-20 text-center">
+      <section className="bg-[#4A7C59] py-16 text-center">
         <div className="container-custom">
           <h2 className="font-display text-4xl md:text-5xl font-bold text-[#FAF7F2] mb-4">
             Taste the Philippines in Every Cup
