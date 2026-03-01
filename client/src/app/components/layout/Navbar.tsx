@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ShoppingCart, Menu, X } from 'lucide-react';
+import { ShoppingCart, Menu, X, User } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 
 export function Navbar() {
@@ -51,8 +51,15 @@ export function Navbar() {
             ))}
           </div>
 
-          {/* Cart + Mobile Toggle */}
-          <div className="flex items-center gap-4">
+          {/* Admin + Cart + Mobile Toggle */}
+          <div className="flex items-center gap-2">
+            <Link
+              to="/admin"
+              className="p-2 text-[#4A2C17]/60 hover:text-[#8B5E3C] transition-colors"
+              title="Admin Login"
+            >
+              <User size={20} />
+            </Link>
             <Link to="/checkout" className="relative p-2 text-[#4A2C17] hover:text-[#8B5E3C] transition-colors">
               <ShoppingCart size={22} />
               {totalItems > 0 && (
