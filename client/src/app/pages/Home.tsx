@@ -194,12 +194,12 @@ export default function Home() {
       {/* Private Events Section */}
       <section className="section-padding bg-[#FAF7F2]">
         <div className="container-custom">
-          <div className="text-center mb-14">
+          <div className="text-center mb-12">
             <p className="font-label text-xs tracking-[0.2em] uppercase text-[#8B5E3C] mb-3">Exclusive Experiences</p>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-[#4A2C17]">Private Events</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 title: content?.weddingsTitle || 'Private Events (Weddings)',

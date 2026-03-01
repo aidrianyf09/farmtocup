@@ -116,7 +116,13 @@ h1, h2, h3, h4, h5 {
 
 /* Section styles */
 .section-padding {
-  padding: 5rem 0;
+  padding: 4rem 0;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 5rem 0;
+  }
 }
 
 .container-custom {

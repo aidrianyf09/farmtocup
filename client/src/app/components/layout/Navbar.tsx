@@ -52,7 +52,7 @@ export function Navbar() {
           </div>
 
           {/* Admin + Cart + Mobile Toggle */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <Link
               to="/admin"
               className="p-2 text-[#4A2C17]/60 hover:text-[#8B5E3C] transition-colors"
